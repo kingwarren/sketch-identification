@@ -1,0 +1,32 @@
+body{
+    color: honeydew;
+    font-family: cursive;
+}
+
+h1{
+    color:black;
+    background-color: burlywood;
+    padding: 10px;
+}
+
+#show_sketch{
+    float: right;
+}
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    margin-top: 50px;
+    animation-name:drawing ;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+
+p{
+    padding-top: 10px;
+    font-size: 25px;
+}
+@keyframes drawing{
+    from {box-shadow: 5px 5px 38px rgb(219, 5, 5);}
+    to {box-shadow: -5px -5px 38px gold;}
+
+}
